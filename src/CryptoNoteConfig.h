@@ -106,7 +106,7 @@ namespace parameters {
 
 
 const char     CRYPTONOTE_NAME[]                             = "C137";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001c08f8af8ae5f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018a124fc0693d82ca6126d417f7e41539501699140d430db2869e84d3b62af00b";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1515479625;
 
