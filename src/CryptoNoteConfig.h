@@ -1,8 +1,4 @@
 // Copyright (c) 2011-2017 The Cryptonote developers
-// Copyright (c) 2014-2017 XDN developers
-// Copyright (c) 2016-2017 BXC developers
-// Copyright (c) 2017 Royalties developers
-// Copyright (c) 2017 Wayang developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -109,8 +105,8 @@ namespace parameters {
   const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(2640));
 
 
-const char     CRYPTONOTE_NAME[]                             = "Mushi";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013f10b20e46406abdcedb02efdce78bc954cff022b67ebab10a8b7eec1954e74e";
+const char     CRYPTONOTE_NAME[]                             = "C137";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1515479625;
 
@@ -144,8 +140,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const std::initializer_list<const char*> SEED_NODES = {
-   "194.135.91.245:17236",
-   "80.208.228.138:17236"
+    "18.216.35.200:17236",
+    "18.222.15.219:17236"
 };
 
 struct CheckpointData {
